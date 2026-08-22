@@ -1,0 +1,43 @@
+{
+  "name": "ajaia-doc-editor",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "prisma generate && next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prisma:push": "prisma db push",
+    "prisma:seed": "node prisma/seed.cjs",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.18.0",
+    "@tiptap/extension-underline": "^2.5.9",
+    "@tiptap/pm": "^2.5.9",
+    "@tiptap/react": "^2.5.9",
+    "@tiptap/starter-kit": "^2.5.9",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.427.0",
+    "mammoth": "^1.8.0",
+    "marked": "^13.0.3",
+    "next": "^14.2.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwind-merge": "^2.4.0"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^16.0.0",
+    "@types/node": "^20.14.15",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.20",
+    "jsdom": "^24.1.1",
+    "postcss": "^8.4.41",
+    "prisma": "^5.18.0",
+    "tailwindcss": "^3.4.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4",
+    "vitest": "^2.0.5"
+  }
+}
