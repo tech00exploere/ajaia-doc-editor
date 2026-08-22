@@ -4,7 +4,7 @@ A lightweight, high-performance collaborative document editor inspired by Google
 
 **Candidate:** Priyanshu  
 **Email:** priyanshu2507.rjs@gmail.com  
-**Repository:** `ajaia-doc-editor`  
+**GitHub Repository:** [https://github.com/tech00exploere/ajaia-doc-editor](https://github.com/tech00exploere/ajaia-doc-editor)  
 **Local Dev URL:** [http://localhost:3000](http://localhost:3000)  
 
 ---
@@ -55,6 +55,7 @@ Switch between these users instantly using the top navigation dropdown to test s
 
 ### 1. Clone & Install Dependencies
 ```bash
+git clone https://github.com/tech00exploere/ajaia-doc-editor.git
 cd ajaia-doc-editor
 npm install
 ```
