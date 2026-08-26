@@ -3,7 +3,7 @@ import { canView, canEdit, canDelete, canShare } from '../src/lib/permissions';
 
 describe('Server-Side Permission Matrix Rules', () => {
   it('OWNER role has full administrative permissions', () => {
-    expect(canView('OWNER')).toBe(true);
+    expect(canView('OWNER')).toBe(true); 
     expect(canEdit('OWNER')).toBe(true);
     expect(canDelete('OWNER')).toBe(true);
     expect(canShare('OWNER')).toBe(true);
